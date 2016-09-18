@@ -2,7 +2,7 @@
 
 The repository contains a program to calculate maximum flows in flow networks. The project implements Dinic's augmenting path algorithm and Goldberg-Tarjan's push-relabel algorithm with a comprehensive GUI and several example networks.
 
-A documentation about all classes is included in the subfolder /doc/ and can be accessed via https://christiangebhardt.github.io/MFA/
+A documentation about all classes is included in the subfolder /doc/ and can be accessed via the website https://christiangebhardt.github.io/MFA/.
 
 ## To run the program:
 * Checkout the GitHub project (https://github.com/ChristianGebhardt/MFA)
