@@ -7,6 +7,7 @@ The repository contains a program to calculate maximum flows in flow networks. T
 * Install a Java runtime environment (JRE) - minimum version required: 1.7.0
 * Run the EXE-file 'MFA.exe' (double click or console command 'MFA.exe')
 * Alternative: Run the JAR-file 'MFA.jar' (double click or console command 'java MFA.jar')
+<br />
 The screen should support a minimum resolution of 1200 x 800 to display the user interface correctly.
 The user interface shows some help information at the start of the program ('Getting started'). They can be reloaded with the help menu item.
 The program includes an example flow network that can be loaded.
@@ -31,6 +32,6 @@ The program includes an example flow network that can be loaded.
     + the function uses 'findChessboardCorners' of the openCV library to find the chessboard
     + the chessboard is marked in the original image and is shown in a seperate window
 
-**Version:_** 1.0.1
+**_Version:_** 1.0.1
 **_Author:_** Christian Gebhardt
 **_Date:_** 2016-09-03
