@@ -2,7 +2,7 @@
 
 The repository contains a program to calculate maximum flows in flow networks. The project implements Dinic's augmenting path algorithm and Goldberg-Tarjan's push-relabel algorithm with a comprehensive GUI and several example networks.
 
-A documentation about all classes is included in the subfolder /doc/ and can be accessed via the website https://christiangebhardt.github.io/MFA/.
+A documentation about all classes is included in the subfolder <em>doc</em> and can be accessed via the website https://christiangebhardt.github.io/MFA/.
 
 ## To run the program:
 * Checkout the GitHub project (https://github.com/ChristianGebhardt/MFA)
@@ -22,17 +22,17 @@ The program includes an example flow network that can be loaded.
 * Resource stuff, ... (to check)
 
 ## Overview over the included folders:
-* src:
-    + the drone is started
-    + values of the patternRecognition are received, interpreted and given to the three PD-Controllers
-    + values of the PD-Controllers are received, interpreted and used to calculate the speeds and directions for actuating the desired movements
-    + the drone is landed and shut down
-* doc: a normal implementation of a PID-Controller where the constants are set via parameters
-* lib: some example values for speed settings which worked well
-* examples:
-    + function that detects a (n x m) chessboard in an image and returns the coordinates of the left upper corner and the right bottom corner
-    + the function uses 'findChessboardCorners' of the openCV library to find the chessboard
-    + the chessboard is marked in the original image and is shown in a seperate window
+* <em>src</em>: The source files of the code and ressource files for the program
+    + package `de.lmu.ifi.mfa` contains the model with the implementation of the maximum flow algorithms
+    + package `de.lmu.ifi.mfa_gui` contains a graphical user interface to manipulate the model and apply the maximum flow algorithms
+    + class `Main.java` is the main class of the program that starts the program
+    + folder <em>resources</em> contains an example flow network and icons for the program
+* <em>doc</em>: The javadoc documentation of the packages and classes
+* <em>lib</em>: The 'JGraphX Swing Component - Java Graph Visualization Library' for the flow network visualization
+* <em>examples</em>: Some template flow networks to test the maximum flow algorithms
+    + default example of the thesis (total flow: F=7)
+    + TODO
+    + TODO
 
 **_Version:_** 1.0.1
 **_Author:_** Christian Gebhardt
