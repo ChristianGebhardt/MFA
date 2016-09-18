@@ -42,5 +42,6 @@ The program includes an example flow network that can be loaded.
 
 ## Further Information:
 
-The MFA-project is part of the bachelor thesis *"Efficient Transport System Scheduling based on Maximum Flow Algorithms"* by Christian Gebhardt submitted at the Institute of Informatics at LMU Munich (submission date: 2016-09-27).
+The MFA-project is part of the bachelor thesis *"Efficient Transport System Scheduling based on Maximum Flow Algorithms"* by *Christian Gebhardt* submitted at the *Institute of Informatics* at *LMU Munich* (submission date: 2016-09-27).
+
 The thesis can be accessed via the link https://TOBEDONE.
