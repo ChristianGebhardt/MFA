@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>mfa</name>
+	<name>MFA</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,27 +18,27 @@
 		<link>
 			<name>resources</name>
 			<type>2</type>
-			<location>src/resources</location>
+			<locationURI>PROJECT_LOC/src/resources</locationURI>
 		</link>
 		<link>
 			<name>src/resources/example.mfa</name>
 			<type>1</type>
-			<location>src/resources/example.mfa</location>
+			<locationURI>PROJECT_LOC/src/resources/example.mfa</locationURI>
 		</link>
 		<link>
 			<name>src/resources/lmu.gif</name>
 			<type>1</type>
-			<location>src/resources/lmu.gif</location>
+			<locationURI>PROJECT_LOC/src/resources/lmu.gif</locationURI>
 		</link>
 		<link>
 			<name>src/resources/lmu16.gif</name>
 			<type>1</type>
-			<location>src/resources/lmu16.gif</location>
+			<locationURI>PROJECT_LOC/src/resources/lmu16.gif</locationURI>
 		</link>
 		<link>
 			<name>src/resources/questionmark16.png</name>
 			<type>1</type>
-			<location>src/resources/questionmark16.png</location>
+			<locationURI>PROJECT_LOC/src/resources/questionmark16.png</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
