@@ -18,27 +18,27 @@
 		<link>
 			<name>resources</name>
 			<type>2</type>
-			<location>C:/Users/gebha/git/BA/src/resources</location>
+			<location>src/resources</location>
 		</link>
 		<link>
 			<name>src/resources/example.mfa</name>
 			<type>1</type>
-			<location>C:/Users/gebha/git/BA/src/resources/example.mfa</location>
+			<location>src/resources/example.mfa</location>
 		</link>
 		<link>
 			<name>src/resources/lmu.gif</name>
 			<type>1</type>
-			<location>C:/Users/gebha/git/BA/src/resources/lmu.gif</location>
+			<location>src/resources/lmu.gif</location>
 		</link>
 		<link>
 			<name>src/resources/lmu16.gif</name>
 			<type>1</type>
-			<location>C:/Users/gebha/git/BA/src/resources/lmu16.gif</location>
+			<location>src/resources/lmu16.gif</location>
 		</link>
 		<link>
 			<name>src/resources/questionmark16.png</name>
 			<type>1</type>
-			<location>C:/Users/gebha/git/BA/src/resources/questionmark16.png</location>
+			<location>src/resources/questionmark16.png</location>
 		</link>
 	</linkedResources>
 </projectDescription>
