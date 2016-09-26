@@ -26,7 +26,7 @@ The program includes an example flow network that can be loaded.
     + clone the repository with the command:`git clone https://github.com/ChristianGebhardt/MFA.git`
 * Install a Java development kit (JDK) - minimum version required: 1.7.0, recommended version: 1.8.0
 * Install Eclipse - minimum version required: 4.2 (Juno), recommended version: 4.6 (Neon)
-* Open the project in Eclipse: 'File' > 'Open project from file system ...' (to check)
+* Open the project in Eclipse: 'File' > 'Open project from file system ...'
 
 ## Overview over the included folders:
 * <em>src</em>: The source files of the code and ressource files for the program
