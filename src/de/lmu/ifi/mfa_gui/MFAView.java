@@ -334,6 +334,7 @@ public class MFAView extends JFrame implements Observer, ActionListener {
         //Add everything
         panel1b.add(new JLabel( "Output:"), BorderLayout.NORTH);
         txtPrompt  = new JTextArea(5,40);
+		txtPrompt.setEditable(false);
         panel1b.add(txtPrompt, BorderLayout.CENTER);
     }
 
@@ -352,6 +353,7 @@ public class MFAView extends JFrame implements Observer, ActionListener {
         outputMask.add(Box.createRigidArea(new Dimension(0,25)));
         //Text area  
         txtDisplay = new JTextArea();
+		txtDisplay.setEditable(false);
         txtDisplay.setText(helpMessage());
         JScrollPane txtOutputPanel = new JScrollPane(txtDisplay);	//initial help (might be removed again)
         txtOutputPanel.setPreferredSize(new Dimension(600, 250));
