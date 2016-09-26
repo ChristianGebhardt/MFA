@@ -22,7 +22,7 @@ import java.util.Observable;
  *  The class implements methods to add and remove vertices or edges as well as
  *  methods to set source and sink vertex. It contains two methods that implement
  *  Dinic's and Goldberg-Tarjan's maximum flow algorithms to compute the maximum
- *  flow in O(n²m) and O(n³) time, respectively.
+ *  flow in O(n&sup2;m) and O(n&sup3;) time, respectively.
  *  <p>
  *  Additionally, there are methods to save and load the flow network.
  *  Furthermore, the interface provides methods to query data about the current
