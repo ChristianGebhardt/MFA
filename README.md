@@ -27,8 +27,6 @@ The program includes an example flow network that can be loaded.
 * Install a Java development kit (JDK) - minimum version required: 1.7.0, recommended version: 1.8.0
 * Install Eclipse - minimum version required: 4.2 (Juno), recommended version: 4.6 (Neon)
 * Open the project in Eclipse: 'File' > 'Open project from file system ...' (to check)
-* Add library `jgraphx.jar` in folder <em>lib</em> to build path: 'Build Path' > 'Configure Build Path...' > 'Libraries' > 'Add External JARs...' (or update path to the file with 'Edit...')
-* Update path to the resource files in package `resources`: right click on file > 'Properties' > 'Edit...'
 
 ## Overview over the included folders:
 * <em>src</em>: The source files of the code and ressource files for the program
