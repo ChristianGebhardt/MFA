@@ -2,13 +2,13 @@
 
 The repository contains a program to calculate maximum flows in flow networks. The project implements Dinic's augmenting path algorithm and Goldberg-Tarjan's push-relabel algorithm with a comprehensive GUI and several example networks.
 
-A documentation about all classes is included in the subfolder /doc/ and can be accessed via the website https://christiangebhardt.github.io/MFA/.
+A documentation about all classes is included in the subfolder <em>doc</em> and can be accessed via the website https://christiangebhardt.github.io/MFA/.
 
 ## To run the program:
 * Checkout the GitHub project (https://github.com/ChristianGebhardt/MFA)
 * Install a Java runtime environment (JRE) - minimum version required: 1.7.0
-* Run the EXE-file 'MFA.exe' (double click or console command 'MFA.exe')
-* Alternative: Run the JAR-file 'MFA.jar' (double click or console command 'java MFA.jar')
+* Run the EXE-file `MFA.exe` (double click or console command `MFA.exe`)
+* Alternative: Run the JAR-file `MFA.jar` (double click or console command `java MFA.jar`)
 
 The screen should support a minimum resolution of 1200 x 800 to display the user interface correctly.
 The user interface shows some help information at the start of the program ('Getting started'). They can be reloaded with the help menu item.
@@ -19,21 +19,30 @@ The program includes an example flow network that can be loaded.
 * Install a Java development kit (JDK) - minimum version required: 1.7.0, recommended version: 1.8.0
 * Install Eclipse - minimum version required: 4.2 (Juno), recommended version: 4.6 (Neon)
 * Open the project in Eclipse: 'Open project from file system ...' (to check)
-* Resource stuff, ... (to check)
+* Add library `jgraphx.jar` in folder <em>lib</em> to build path: 'Build Path' > 'Configure Build Path...' > 'Libraries' > 'Add External JARs...' (or update path to the file with 'Edit...')
+* Update path to the resource files in package `resources`: right click on file > 'Properties' > 'Edit...'
 
 ## Overview over the included folders:
-* src:
-    + the drone is started
-    + values of the patternRecognition are received, interpreted and given to the three PD-Controllers
-    + values of the PD-Controllers are received, interpreted and used to calculate the speeds and directions for actuating the desired movements
-    + the drone is landed and shut down
-* doc: a normal implementation of a PID-Controller where the constants are set via parameters
-* lib: some example values for speed settings which worked well
-* examples:
-    + function that detects a (n x m) chessboard in an image and returns the coordinates of the left upper corner and the right bottom corner
-    + the function uses 'findChessboardCorners' of the openCV library to find the chessboard
-    + the chessboard is marked in the original image and is shown in a seperate window
+* <em>src</em>: The source files of the code and ressource files for the program
+    + package `de.lmu.ifi.mfa` contains the model with the implementation of the maximum flow algorithms
+    + package `de.lmu.ifi.mfa_gui` contains a graphical user interface to manipulate the model and apply the maximum flow algorithms
+    + class `Main.java` is the main class of the program that starts the program
+    + folder <em>resources</em> contains an example flow network and icons for the program
+* <em>doc</em>: The javadoc documentation of the packages and classes
+* <em>lib</em>: The 'JGraphX Swing Component - Java Graph Visualization Library' for the flow network visualization
+* <em>examples</em>: Some template flow networks to test the maximum flow algorithms
+    + `thesis_example.mfa` default example of the thesis (total flow: F=7)
+    + `large_network.mfa` example with more than 20 vertices (total flow: F=8)
+    + `dense_graph.mfa` example with arc circuits (total flow: F=6)
 
 **_Version:_** 1.0.1
 **_Author:_** Christian Gebhardt
 **_Date:_** 2016-09-03
+
+***
+
+## Further Information:
+
+The MFA-project is part of the bachelor thesis *"Efficient Transport System Scheduling based on Maximum Flow Algorithms"* by **Christian Gebhardt** submitted at the **Institute of Informatics** at **LMU Munich** (submission date: 2016-09-27).
+
+The thesis can be accessed via the link https://www.cip.ifi.lmu.de/~gebhardta/publication/thesis_mfa.pdf.
