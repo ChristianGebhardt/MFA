@@ -5,7 +5,11 @@ The repository contains a program to calculate maximum flows in flow networks. T
 A documentation about all classes is included in the subfolder <em>doc</em> and can be accessed via the website https://christiangebhardt.github.io/MFA/.
 
 ## To run the program:
-* Checkout the GitHub project (https://github.com/ChristianGebhardt/MFA)
+* Install git on the computer and chose a project folder
+* Checkout the GitHub project:
+    + open a git bash in the project folder (right click > 'Git Bash Here')
+    + initialize the repository with the command:`git init`
+    + clone the repository with the command:`git clone https://github.com/ChristianGebhardt/MFA.git`
 * Install a Java runtime environment (JRE) - minimum version required: 1.7.0
 * Run the EXE-file `MFA.exe` (double click or console command `MFA.exe`)
 * Alternative: Run the JAR-file `MFA.jar` (double click or console command `java MFA.jar`)
@@ -15,10 +19,14 @@ The user interface shows some help information at the start of the program ('Get
 The program includes an example flow network that can be loaded.
 
 ## To develop the program with Eclipse:
-* Checkout the GitHub project (https://github.com/ChristianGebhardt/MFA)
+* Install git on the computer and chose a project folder
+* Checkout the GitHub project:
+    + open a git bash in the project folder (right click > 'Git Bash Here')
+    + initialize the repository with the command:`git init`
+    + clone the repository with the command:`git clone https://github.com/ChristianGebhardt/MFA.git`
 * Install a Java development kit (JDK) - minimum version required: 1.7.0, recommended version: 1.8.0
 * Install Eclipse - minimum version required: 4.2 (Juno), recommended version: 4.6 (Neon)
-* Open the project in Eclipse: 'Open project from file system ...' (to check)
+* Open the project in Eclipse: 'File' > 'Open project from file system ...' (to check)
 * Add library `jgraphx.jar` in folder <em>lib</em> to build path: 'Build Path' > 'Configure Build Path...' > 'Libraries' > 'Add External JARs...' (or update path to the file with 'Edit...')
 * Update path to the resource files in package `resources`: right click on file > 'Properties' > 'Edit...'
 
