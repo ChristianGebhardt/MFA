@@ -31,9 +31,9 @@ The program includes an example flow network that can be loaded.
 * <em>doc</em>: The javadoc documentation of the packages and classes
 * <em>lib</em>: The 'JGraphX Swing Component - Java Graph Visualization Library' for the flow network visualization
 * <em>examples</em>: Some template flow networks to test the maximum flow algorithms
-    + default example of the thesis (total flow: F=7)
-    + TODO
-    + TODO
+    + `thesis_example.mfa` default example of the thesis (total flow: F=7)
+    + `large_network.mfa` example with more than 20 vertices (total flow: F=8)
+    + `dense_graph.mfa` example with arc circuits (total flow: F=6)
 
 **_Version:_** 1.0.1
 **_Author:_** Christian Gebhardt
